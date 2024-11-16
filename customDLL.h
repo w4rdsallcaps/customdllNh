@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-__declspec(dllexport) int intIn(int *target);
+__declspec(dllexport) int inputInt(int *target);
 
 #define LOG "LOG"
 #define ERROR "ERROR"
